@@ -1,0 +1,325 @@
+.car-header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid chocolate;
+}
+.car-contaner{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+.car-contaner .nav-logo{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+    float: left;
+}
+.car-contaner .nav-logo .logo{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: chocolate;
+    overflow: hidden;
+    position: relative;
+}
+.car-contaner .nav-logo .logo::before,
+.car-contaner .nav-logo .logo::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    content: "";
+    transition: all .2s;
+}
+.car-contaner .nav-logo .logo::after{
+    background: url(../images/mi-home.png) no-repeat center;
+    margin-left: -55px;
+}
+.car-contaner .nav-logo .logo::before{
+    background: url(../images/logo.png) no-repeat center;
+    
+}
+
+.car-contaner .nav-logo .logo:hover:before,
+.car-contaner .nav-logo .logo:hover:after{
+    transform: translate(55px);
+
+}
+
+.car-contaner h2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.car-contaner .right{
+    width: 100px;
+    height: 100px;
+    float: right;
+    line-height: 100px;
+    text-align: right;
+}
+.right a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+
+.main-box{
+    width: 100%;
+    height: 500px;
+    background-color: #F5F5F5;
+    padding-top: 65px;
+}
+
+.main-box .car-main{
+    width: 1226px;
+    height: 273px;
+    margin: 0 auto;
+    
+    margin-bottom: 130px;
+}
+.car-main .car-left{
+    width: 558px;
+    height: 273px;
+    float: left;
+    text-align: center;
+}
+
+.car-main .car-right{
+    width: 668px;
+    height: 273px;
+    float: right;
+}
+
+.car-right h2{
+    font-size: 36px;
+    color: #b0b0b0;
+    margin-top: 50px;
+}
+.car-right p{
+    font-size: 20px;
+    color: #b0b0b0;
+}
+.car-right a{
+    display: inline-block;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+
+/*底部样式*/
+.food_box{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	background: #fff;
+}
+.fooder{
+	width: 1226px;
+	height: 272px;
+	/*background: skyblue;*/
+	margin: 50px auto 0 auto;
+}
+.food_biao{
+	width: 1226px;
+	height: 25px;
+	padding: 27px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.food_biao ul{
+	width: 1226px;
+	height: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.food_biao ul li{
+	position: relative;
+	width: 244px;
+	height: 25px;
+	/*background: sandybrown;*/
+	float: left;
+	border-right: 1px solid #E0E0E0;
+}
+.food_biao ul li.biao_shu{
+	border-right: none;
+}
+.food_biao ul li a:hover{
+	color: chocolate;
+}
+.food_biao ul li a:hover .i1{
+	background: url(../../images/img/fooder_1.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a:hover .i2{
+	background: url(../../images/img/fooder_2.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a:hover .i3{
+	background: url(../../images/img/fooder_3.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a:hover .i4{
+	background: url(../../images/img/fooder_4.png) no-repeat center;
+	background-size: 24px;
+}
+.food_biao ul li a:hover .i5{
+	background: url(../../images/img/fooder_5.png) no-repeat center;
+	background-size: 16px;
+}
+.food_biao ul li a i.i1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(../../images/img/food_1.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a i.i2{
+	position: absolute;
+	top: 0px;
+	left: -10px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(../../images/img/food_2.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a i.i3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(../../images/img/food_3.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a i.i4{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(../../images/img/food_4.png) no-repeat center;
+	background-size: 26px;
+}
+.food_biao ul li a i.i5{
+	position: absolute;
+	top: 0px;
+	left: -20px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url(../../images/img/food_5.png) no-repeat center;
+	background-size: 16px;
+}
+.food_biao ul li a{
+	position: absolute;
+	left: 55px;
+	text-decoration: none;
+	line-height: 25px;
+	color: #616161;
+	display: inline-block;
+	width: 126px;
+	height: 25px;
+	font-size: 16px;
+	text-align: right;
+}
+/*底部主体部分*/
+.food_main{
+	width: 1226px;
+	height: 112px;
+	padding: 40px 0;
+}
+.food_main ul{
+	float: left;
+	width: 160px;
+	height: 112px;
+	/*background: skyblue;*/
+}
+.food_main ul li.main_l1{
+	font-size: 14px;
+	color: #424242;
+	margin-bottom: 26px;
+	margin-top: 0;
+}
+.food_main ul li.main_l1:hover{
+	color: #333333;
+}
+.food_main ul li{
+	cursor: pointer;
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+.food_main ul li:hover{
+	color: chocolate;
+}
+.food_main ul.main_bor{
+	border-right: 1px solid #E0E0E0;
+	padding-right: 18px;
+	/*background: skyblue;*/
+}
+.food_phone{
+	float: right;
+	text-align: center;
+	width: 246px;
+	height: 22px;
+	margin-bottom: 5px;
+	color: chocolate;
+	font-size: 22px;
+	line-height: 1;
+}
+.food_time{
+	float: right;
+	text-align: center;
+	margin-bottom: 16px;
+	width: 246px;
+	height: 35px;
+	font-size: 12px;
+	color: #616161;
+}
+.food_main a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+	/*float: right;*/
+	color: chocolate;
+	border: 1px solid chocolate;
+	line-height: 30px;
+	text-align: center;
+	background: #fff url(../../images/img/food_5.png) no-repeat 15px 6px;
+	text-decoration: none;
+	margin-left: 60px;
+}
+.food_main a:hover{
+	background: chocolate url(../../images/img/food_5.png) no-repeat 15px 6px;
+	color: #fff;
+}
+
